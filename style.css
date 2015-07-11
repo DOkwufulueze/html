@@ -1,0 +1,68 @@
+fieldset {
+    border: 0;
+}
+
+
+#formDiv{
+	width: 470px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #ececec;
+	font-size: 12px;
+	padding:20px;
+}
+
+.exerciseHeader{
+	width: 300px;
+	text-align: center;
+	font-size: 18px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.fieldHolder{
+	clear: both;
+	width: 400px;
+	height: 20px;
+	margin-bottom: 5px;
+}
+
+.fieldAttribute{
+	clear: none;
+	width: 120px;
+	height: 20px;
+	margin-right: 2px;
+	float: left;
+}
+
+.fieldValue{
+	clear: none;
+	width: 250px;
+	height: 20px;
+	float: left;
+}
+
+.standalone{
+	clear: both;
+	float: left;
+}
+
+textarea{
+	min-width: 150px;
+	min-height: 100px;
+	max-width: 150px;
+	max-height: 100px;
+}
+
+.btns{
+	clear: none;
+	width: 70px;
+	height: 20px;
+	margin-right: 2px;
+	float: left;
+}
+
+.lineBreak{
+	clear: both;
+	margin-bottom: 10px;
+}

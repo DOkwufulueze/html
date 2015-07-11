@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Daniel Form Exercise- RoR Training: Track 4</title>
+		<link href="style.css" rel="stylesheet" />
+		<script type="text/javascript" src="functions.js" ></script>
+	</head>
+
+	<body>
+
+		<div id="formDiv">
+			<h2 class="exerciseHeader">HTML form exercise</h2>
+
+			<p>
+				<span style="color:#ba3333;">Please note: </span> This Example demonstrate how HTML forms can be used. Submit button should submit the button and reset button should reset the form(revert the changes in the fields). The form layout should be the same as below.
+			</p>
+
+			<form method="post" action="danielFormExercise.html" enctype="multipart/form-data" class="contactForm">
+
+				<fieldset>
+					<legend>
+						<b>Contact form</b>
+					</legend>
+					<div class="fieldHolder">
+
+						<span class="fieldAttribute">
+							Your name*:
+						</span>
+
+						<span class="fieldValue">
+							<input type="text" id="name" name="name" class="compulsory" />
+						</span>
+
+					</div>
+
+					<div class="fieldHolder">
+
+						<span class="fieldAttribute">
+							E-mail*:
+						</span>
+
+						<span class="fieldValue">
+							<input type="text" id="email" name="email" class="compulsory" />
+						</span>
+
+					</div>
+
+					<div class="fieldHolder">
+
+						<span class="fieldAttribute">
+							Phone number:
+						</span>
+
+						<span class="fieldValue">
+							<input type="text" id="phone" name="phone" class="optional" />
+						</span>
+
+					</div>
+
+					<div class="fieldHolder">
+
+						<span class="fieldAttribute">
+							Website*:
+						</span>
+
+						<span class="fieldValue">
+							<input type="text" id="website" name="website" class="compulsory" size="30" value="http://" />
+						</span>
+
+					</div>
+
+					<div class="fieldHolder">
+
+						<div class="standalone">
+							Comments*:
+						</div>
+
+						<div class="standalone">
+							<textarea id="comment" name="comment" class="compulsory" rows="8" cols="25" ></textarea>
+						</div>
+
+					</div>
+				</fieldset>
+
+				<div class="lineBreak"></div>
+
+				<fieldset>
+					<legend>
+						<b>Text field</b>
+					</legend>
+
+					<div class="fieldHolder">
+
+						<span class="fieldAttribute">
+							Your name:
+						</span>
+
+						<span class="fieldValue">
+							<input type="text" id="name2" name="name2" class="optional" />
+						</span>
+
+					</div>
+
+				</fieldset>
+
+				<div class="lineBreak"></div>
+
+				<fieldset>
+					<legend>
+						<b>Password field</b>
+					</legend>
+					
+					<div class="fieldHolder">
+
+						<span class="fieldAttribute">
+							Password:
+						</span>
+
+						<span class="fieldValue">
+							<input type="password" id="pwd" name="pwd" class="optional" />
+						</span>
+
+					</div>
+
+				</fieldset>
+
+				<div class="lineBreak"></div>
+
+				<fieldset>
+					<legend>
+						<b>Radio Buttons</b>
+					</legend>
+					
+					<div class="fieldHolder">
+
+						<div class="standalone">
+							Do you like pizza?:
+						</div>
+
+						<div class="standalone">
+							<input type="radio" id="rb1" name="rb" class="optional" value="Yes" /> Yes
+						</div>
+
+						<div class="standalone">
+							<input type="radio" id="rb2" name="rb" class="optional" value="No" /> No
+						</div>
+
+						<div class="standalone">
+							<input type="radio" id="rb3" name="rb" class="optional" value="Maybe" /> Maybe
+						</div>
+
+						<div class="standalone">
+							<input type="radio" id="rb4" name="rb" class="optional" value="Never tried" /> Never tried
+						</div>
+
+					</div>
+
+				</fieldset>
+
+				<div class="lineBreak"></div>
+
+				<fieldset>
+					<legend>
+						<b>Check Box</b>
+					</legend>
+					
+					<div class="fieldHolder">
+
+						<div class="standalone">
+							Do you like pizza?:
+						</div>
+
+						<div class="standalone">
+							<input type="checkbox" id="chk" name="chk" class="optional" value="Yes" /> Check this box if you like our service
+						</div>
+
+					</div>
+
+				</fieldset>
+
+				<div class="lineBreak"></div>
+
+				<fieldset>
+					<legend>
+						<b>Text area</b>
+					</legend>
+					
+					<div class="fieldHolder">
+
+						<div class="standalone">
+							Anything you would like to say?:
+						</div>
+
+						<div class="standalone">
+							<textarea id="txt" name="txt" class="optional" rows="8" cols="25" ></textarea>
+						</div>
+
+					</div>
+				</fieldset>
+
+				<div class="lineBreak"></div>
+
+				<fieldset>
+					<legend>
+						<b>I Like</b>
+					</legend>
+					
+					<div class="fieldHolder">
+
+						<div class="standalone">
+							<select id="like" name="like" class="optional" multiple >
+								<option value="mushrooms">
+									mushrooms
+								</option>
+								<option value="green peppers">
+									green peppers
+								</option>
+								<option value="onions">
+									onions
+								</option>
+								<option value="tomatoes">
+									tomatoes
+								</option>
+								<option value="olives">
+									olives
+								</option>
+							</select>
+						</div>
+
+					</div>
+				</fieldset>
+
+				<div class="lineBreak"></div>
+
+				<fieldset>
+					<legend>
+						<b>Menu</b>
+					</legend>
+					
+					<div class="fieldHolder">
+
+						<div class="standalone">
+							Your favorite color:
+						</div>
+
+						<div class="standalone">
+							<select id="favColor" name="favColor" class="optional" >
+								<option value="red">
+									red
+								</option>
+								<option value="violet">
+									violet
+								</option>
+								<option value="white">
+									white
+								</option>
+								<option value="yellow">
+									yellow
+								</option>
+							</select>
+						</div>
+
+					</div>
+				</fieldset>
+
+				<div class="lineBreak"></div>
+
+				<fieldset>
+					<legend>
+						<b>Attach file</b>
+					</legend>
+					
+					<div class="fieldHolder">
+
+						<div class="standalone">
+							<input type="file" id="fl" name="fl" />
+						</div>
+
+					</div>
+				</fieldset>
+
+				<div class="lineBreak"></div>
+
+				<fieldset>
+					<legend>
+						<b>Buttons</b>
+					</legend>
+					
+					<div class="fieldHolder">
+
+						<div class="btns">
+							<input type="submit" id="sbm" name="sbm" value="Submit" onmousedown="validateContactForm()" />
+						</div>
+
+						<div class="btns">
+							<input type="reset" id="rst" name="rst" value="Reset" />
+						</div>
+
+					</div>
+				</fieldset>
+
+				<div class="lineBreak"></div>
+
+			</form>
+		</div>
+
+	</body>
+
+</html>
